@@ -6,9 +6,6 @@ on:
   workflow_dispatch:
   repository_dispatch:
     types: [new-release]
-    
-env:
-  github-token: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   generate:
