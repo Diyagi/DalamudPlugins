@@ -7,6 +7,7 @@
     "InternalName": "icebearEureka",
     "AssemblyVersion": "1.0.0.0",
     "RepoUrl": "https://github.com/Diyagi/IcebearEureka",
+    "IconUrl": "https://raw.githubusercontent.com/Diyagi/IcebearEureka/master/images/icon.png",
     "ApplicableVersion": "any",
     "Tags": [],
     "IsHide": "False",
