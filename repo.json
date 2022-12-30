@@ -5,6 +5,7 @@
     "Punchline": "'-'",
     "Description": "Show server id for eureka instances",
     "InternalName": "icebearEureka",
+    "RepoUrl": "https://github.com/Diyagi/IcebearEureka",
     "ApplicableVersion": "any",
     "Tags": [],
     "IsHide": "False",
