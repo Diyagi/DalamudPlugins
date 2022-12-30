@@ -1,0 +1,18 @@
+[
+  {
+    "Author": "Diyagi",
+    "Name": "Icebear Eureka",
+    "Punchline": "'-'",
+    "Description": "Show server id for eureka instances",
+    "InternalName": "icebearEureka",
+    "ApplicableVersion": "any",
+    "Tags": [],
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "LastUpdated": 1672436128,
+    "DownloadCount": 0,
+    "DownloadLinkInstall": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0/IcebearEureka.zip",
+    "DownloadLinkTesting": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0/IcebearEureka.zip",
+    "DownloadLinkUpdate": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0/IcebearEureka.zip"
+  }
+]
