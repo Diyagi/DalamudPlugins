@@ -1,6 +1,11 @@
+param([String]$github_token = $env:GITHUB_TOKEN)
 $pluginsOut = @()
 
 $pluginList = Get-Content '.\plugins.json' | ConvertFrom-Json
+
+$headers = @{
+  "Authorization"= "token $github_token"
+}
 
 foreach ($plugin in $pluginList) {
   # Get values from the object
@@ -10,7 +15,7 @@ foreach ($plugin in $pluginList) {
   $configFolder = $plugin.configFolder
 
   # Fetch the release data from the Gibhub API
-  $data = Invoke-WebRequest -Uri "https://api.github.com/repos/$($username)/$($repo)/releases/latest"
+  $data = Invoke-WebRequest -Headers $headers -Uri "https://api.github.com/repos/$($username)/$($repo)/releases/latest"
   $json = ConvertFrom-Json $data.content
 
   # Get data from the api request.
@@ -20,7 +25,7 @@ foreach ($plugin in $pluginList) {
   $time = [Int](New-TimeSpan -Start (Get-Date "01/01/1970") -End ([DateTime]$json.published_at)).TotalSeconds
 
   # Get the config data from the repo.
-  $configData = Invoke-WebRequest -Uri "https://raw.githubusercontent.com/$($username)/$($repo)/$($branch)/$($configFolder)/$($repo).json"
+  $configData = Invoke-WebRequest -Headers $headers -Uri "https://raw.githubusercontent.com/$($username)/$($repo)/$($branch)/$($configFolder)/$($repo).json"
   $config = ConvertFrom-Json $configData.content
 
   # Ensure that config is converted properly.
