@@ -4,7 +4,7 @@ $pluginsOut = @()
 $pluginList = Get-Content '.\plugins.json' | ConvertFrom-Json
 
 $headers = @{
-  "Authorization"= "token $github_token"
+  "Authorization"= "Bearer $github_token"
 }
 
 foreach ($plugin in $pluginList) {
