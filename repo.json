@@ -5,17 +5,17 @@
     "Punchline": "'-'",
     "Description": "Show server id for eureka instances",
     "InternalName": "icebearEureka",
-    "AssemblyVersion": "1.0.0.0",
     "RepoUrl": "https://github.com/Diyagi/IcebearEureka",
     "IconUrl": "https://raw.githubusercontent.com/Diyagi/IcebearEureka/master/images/icon.png",
     "ApplicableVersion": "any",
     "Tags": [],
+    "Changelog": "- Updated opcode for 6.3 patch.\n- Updated for Dalamud API 8 and .net7",
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "LastUpdated": 1672444935,
-    "DownloadCount": 5,
-    "DownloadLinkInstall": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0.0/IcebearEureka.zip",
-    "DownloadLinkTesting": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0.0/IcebearEureka.zip",
-    "DownloadLinkUpdate": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0.0/IcebearEureka.zip"
+    "LastUpdated": 1673761624,
+    "DownloadCount": 0,
+    "DownloadLinkInstall": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0.1/IcebearEureka.zip",
+    "DownloadLinkTesting": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0.1/IcebearEureka.zip",
+    "DownloadLinkUpdate": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0.1/IcebearEureka.zip"
   }
 ]
