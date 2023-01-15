@@ -3,6 +3,7 @@
     "Author": "Diyagi",
     "Name": "Icebear Eureka",
     "Punchline": "'-'",
+    "AssemblyVersion": "1.0.0.1",
     "Description": "Show server id for eureka instances",
     "InternalName": "icebearEureka",
     "RepoUrl": "https://github.com/Diyagi/IcebearEureka",
