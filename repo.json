@@ -3,20 +3,20 @@
     "Author": "Diyagi",
     "Name": "Icebear Eureka",
     "Punchline": "'-'",
-    "AssemblyVersion": "1.0.0.2",
+    "AssemblyVersion": "1.0.0.3",
     "Description": "Show server id for eureka instances",
     "InternalName": "icebearEureka",
     "RepoUrl": "https://github.com/Diyagi/IcebearEureka",
     "IconUrl": "https://raw.githubusercontent.com/Diyagi/IcebearEureka/master/images/icon.png",
     "ApplicableVersion": "any",
     "Tags": [],
-    "Changelog": "- Updated opcode for 6.31 patch.",
+    "Changelog": "- Updated opcode for 6.31 HotFixes patch.",
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "LastUpdated": 1674687854,
-    "DownloadCount": 2,
-    "DownloadLinkInstall": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0.2/IcebearEureka.zip",
-    "DownloadLinkTesting": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0.2/IcebearEureka.zip",
-    "DownloadLinkUpdate": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0.2/IcebearEureka.zip"
+    "LastUpdated": 1675953993,
+    "DownloadCount": 0,
+    "DownloadLinkInstall": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0.3/IcebearEureka.zip",
+    "DownloadLinkTesting": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0.3/IcebearEureka.zip",
+    "DownloadLinkUpdate": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0.3/IcebearEureka.zip"
   }
 ]
