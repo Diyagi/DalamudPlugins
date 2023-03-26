@@ -13,10 +13,10 @@
     "Changelog": "- Updated opcode for 6.31 HotFixes patch.",
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "LastUpdated": 1675953993,
-    "DownloadCount": 5,
-    "DownloadLinkInstall": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0.3/IcebearEureka.zip",
-    "DownloadLinkTesting": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0.3/IcebearEureka.zip",
-    "DownloadLinkUpdate": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0.3/IcebearEureka.zip"
+    "LastUpdated": 1679860211,
+    "DownloadCount": 0,
+    "DownloadLinkInstall": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0.4/IcebearEureka.zip",
+    "DownloadLinkTesting": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0.4/IcebearEureka.zip",
+    "DownloadLinkUpdate": "https://github.com/Diyagi/IcebearEureka/releases/download/1.0.0.4/IcebearEureka.zip"
   }
 ]
